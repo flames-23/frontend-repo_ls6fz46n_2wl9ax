@@ -1,8 +1,9 @@
-npm error code ENOENT
-npm error syscall open
-npm error path /home/workspace/package.json
-npm error errno -2
-npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/workspace/package.json'
-npm error enoent This is related to npm not being able to find a file.
-npm error enoent
-npm error A complete log of this run can be found in: /root/.npm/_logs/2025-11-12T20_09_45_633Z-debug-0.log
+
+> immotucan-landing@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 183 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose

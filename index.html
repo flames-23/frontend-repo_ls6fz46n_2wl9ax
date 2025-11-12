@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FF9500" />
+    <meta name="description" content="IMMOTUCAN – Real estate agency in Bruck an der Leitha. Bilingual German/English landing page with featured properties, services, and contact form." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <title>IMMOTUCAN – Real Estate</title>
+    <script type="module" crossorigin src="/src/main.jsx"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Open Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+              display: ['Playfair Display', 'Georgia', 'serif']
+            },
+            colors: {
+              brand: {
+                orange: '#FF9500',
+                black: '#1A1A1A',
+                bg: '#F9F9F9'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-brand-bg text-brand-black">
+    <div id="root"></div>
+  </body>
+</html>
